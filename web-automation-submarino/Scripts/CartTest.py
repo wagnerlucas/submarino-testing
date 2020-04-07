@@ -1,7 +1,7 @@
 import unittest
 from selenium import webdriver
-from Scripts.CartPage import CartPage
-from Scripts.SearchPage import SearchPage
+from Pages.CartPage import CartPage
+from Pages.SearchPage import SearchPage
 from Data.TestingData import Product
 
 
@@ -42,7 +42,6 @@ class CartTestCase(unittest.TestCase):
 
         cartPage = CartPage(self.driver)
         assert Product.title_product_with_details, cartPage.check_product_title()
-        cartPage.click_product_size()
         cartPage.click_buy()
         assert Product.title_product_features, cartPage.check_confirm_product()
         cartPage.click_confirm_product()

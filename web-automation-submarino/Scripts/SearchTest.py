@@ -1,6 +1,6 @@
 import unittest
 from selenium import webdriver
-from Scripts.SearchPage import SearchPage
+from Pages.SearchPage import SearchPage
 from Data.TestingData import Product
 
 

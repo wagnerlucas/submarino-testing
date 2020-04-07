@@ -37,7 +37,7 @@ class SearchPage(BasePage):
 
     def check_product_search(self, product):
         path = self.get_product_path(product)
-        product_title = WebDriverWait(self.driver, 25).until(
+        product_title = WebDriverWait(self.driver, 30).until(
             EC.visibility_of_element_located((By.XPATH, path)))
 
         return product_title.text
@@ -53,11 +53,11 @@ class SearchPage(BasePage):
 
     def click_product_search(self, product):
         path = self.get_product_path(product)
-        prod = WebDriverWait(self.driver, 25).until(EC.element_to_be_clickable((By.XPATH, path)))
+        prod = WebDriverWait(self.driver, 50).until(EC.element_to_be_clickable((By.XPATH, path)))
         prod.click()
 
     def check_category_no_stock(self):
-        return WebDriverWait(self.driver, 25).\
+        return WebDriverWait(self.driver, 30).\
             until(EC.element_to_be_clickable((By.XPATH, SearchPage.category_no_stock))).text
 
     @staticmethod
