@@ -1,4 +1,4 @@
-from PageObject.BasePage import BasePage
+from Pages.BasePage import BasePage
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -17,7 +17,7 @@ class CartPage(BasePage):
     confirm_text = "//span[contains(text(),'O produto escolhido é')]"
     feature1 = "//div[@id='app']//span[1]//span[1]"
     feature2 = "//span[@class='basket-productDiffs--value'][contains(text(),'G')]"
-    radio_warranty = "//body/div[@id='content']/div[@class='ViewUI-sc-1ijittn-6 iXIDWU']/div/main[@class='service-flow']/div[@class='service-flow--divisor']/div[@class='container-fluid']/div[@class='row flow-wrapper service-content']/div[@class='col-sm-9 col-xs-12 services-types']/section[@class='service-type']/div[@class='row']/div[@class='col-xs-12 col-sm-9 service-info']/div[@class='row']/div[@class='col-xs-12 col-sm-9']/div/div[contains(@class,'garantia_estendida-option-1')]/div[@class='togglebox']/header[@class='toggle-header']/label[@class='toggle-label']/span[1]"
+    radio_warranty = "//span[contains(text(),'+ 12 meses')]"
 
     def check_product_cart(self):
         return WebDriverWait(self.driver, 15). \

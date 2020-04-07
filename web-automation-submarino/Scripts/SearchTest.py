@@ -1,10 +1,7 @@
 import unittest
 from selenium import webdriver
-from PageObject.SearchPage import SearchPage
-from PageObject.Data import Product
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
+from Scripts.SearchPage import SearchPage
+from Data.TestingData import Product
 
 
 class SearchTestCase(unittest.TestCase):

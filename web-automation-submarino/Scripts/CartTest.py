@@ -1,11 +1,8 @@
 import unittest
 from selenium import webdriver
-from PageObject.CartPage import CartPage
-from PageObject.SearchPage import SearchPage
-from PageObject.Data import Product
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
+from Scripts.CartPage import CartPage
+from Scripts.SearchPage import SearchPage
+from Data.TestingData import Product
 
 
 class CartTestCase(unittest.TestCase):
