@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01ee0fce-f374-497b-abfa-3e4db6ebefff" name="Default Changelist" comment="" />
+    <list default="true" id="01ee0fce-f374-497b-abfa-3e4db6ebefff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/CartTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/CartTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/Data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/ProductDetailsPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/CartPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObject/SearchPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/PageObject/SearchPage.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1a2ZZ7ovNuNNH66fnTLfUTGc2rr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,9 +34,66 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../automacaoWeb" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for SearchTest.SearchTestCase">
+  <component name="RunManager" selected="Python tests.Unittests for CartTest.CartTestCase.test_add_product_that_is_no_stock">
+    <configuration name="Unittests for CartTest.CartTestCase.test_add_product_that_is_no_stock" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="web-automation-submarino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PageObject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;CartTest.CartTestCase.test_add_product_that_is_no_stock&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for CartTest.CartTestCase.test_add_product_to_cart_successfully" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="web-automation-submarino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PageObject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;CartTest.CartTestCase.test_add_product_to_cart_successfully&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for CartTest.CartTestCase.test_add_product_to_to_cart_with_extended_warranty" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="web-automation-submarino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PageObject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;CartTest.CartTestCase.test_add_product_to_to_cart_with_extended_warranty&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for CartTest.CartTestCase.test_add_product_with_details_to_cart" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="web-automation-submarino" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PageObject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;CartTest.CartTestCase.test_add_product_with_details_to_cart&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for Example.search_testing" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="web-automation-submarino" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,76 +133,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;Example.search_testing&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for Example.search_testing" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="web-automation-submarino" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Example.search_testing&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for SearchTest.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="web-automation-submarino" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PageObject" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;SearchTest.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for SearchTest.MyTestCase.test_search_for_a_product_that_is_no_stock" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="web-automation-submarino" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PageObject" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;SearchTest.MyTestCase.test_search_for_a_product_that_is_no_stock&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for SearchTest.MyTestCase.test_search_product_with_no_results_found" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="web-automation-submarino" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PageObject" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;SearchTest.MyTestCase.test_search_product_with_no_results_found&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for SearchTest.MyTestCase.test_search_product_with_wrong_name" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="web-automation-submarino" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PageObject" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;SearchTest.MyTestCase.test_search_product_with_wrong_name&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -154,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for CartTest.CartTestCase.test_add_product_that_is_no_stock" />
+        <item itemvalue="Python tests.Unittests for CartTest.CartTestCase.test_add_product_to_cart_successfully" />
+        <item itemvalue="Python tests.Unittests for CartTest.CartTestCase.test_add_product_with_details_to_cart" />
+        <item itemvalue="Python tests.Unittests for CartTest.CartTestCase.test_add_product_to_to_cart_with_extended_warranty" />
         <item itemvalue="Python tests.Unittests for SearchTest.SearchTestCase" />
-        <item itemvalue="Python tests.Unittests for SearchTest.MyTestCase" />
-        <item itemvalue="Python tests.Unittests for SearchTest.MyTestCase.test_search_for_a_product_that_is_no_stock" />
-        <item itemvalue="Python tests.Unittests for SearchTest.MyTestCase.test_search_product_with_no_results_found" />
-        <item itemvalue="Python tests.Unittests for SearchTest.MyTestCase.test_search_product_with_wrong_name" />
       </list>
     </recent_temporary>
   </component>
@@ -180,21 +178,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586116524220" />
-    <state width="1344" height="173" key="GridCell.Tab.0.bottom" timestamp="1586148403901">
+    <state width="1344" height="109" key="GridCell.Tab.0.bottom" timestamp="1586242064413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586148403901" />
-    <state width="1344" height="173" key="GridCell.Tab.0.center" timestamp="1586148403901">
+    <state width="1344" height="109" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586242064413" />
+    <state width="1344" height="109" key="GridCell.Tab.0.center" timestamp="1586242064413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586148403901" />
-    <state width="1344" height="173" key="GridCell.Tab.0.left" timestamp="1586148403901">
+    <state width="1344" height="109" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586242064413" />
+    <state width="1344" height="109" key="GridCell.Tab.0.left" timestamp="1586242064413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586148403901" />
-    <state width="1344" height="173" key="GridCell.Tab.0.right" timestamp="1586148403901">
+    <state width="1344" height="109" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586242064413" />
+    <state width="1344" height="109" key="GridCell.Tab.0.right" timestamp="1586242064413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586148403901" />
+    <state width="1344" height="109" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586242064413" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1586269545739">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586269545739" />
+    <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586189884744">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="405" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1586189884744" />
   </component>
 </project>
