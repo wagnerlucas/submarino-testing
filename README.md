@@ -1,5 +1,10 @@
 # submarino-testing
 
+## Preparing the execution
+Before the test run, you have to change the directory of chromeDriver in SearchTest.py and CartTest.py to the directory of chromeDriver in your computer. 
+
+*Example: "C:\Users\Vagno\PycharmProjects\submarino-testing\web-automation-submarino\chromedriver.exe"*
+
 ## Create virtual env
 1. python -m virtualenv env
 2. env\Scripts\activate
