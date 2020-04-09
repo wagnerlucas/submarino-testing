@@ -10,7 +10,7 @@ Before the test run, you have to change the directory of chromeDriver in SearchT
 2. env\Scripts\activate
 
 ## How to execute?
-1. pip install -r requirements.txt (linux) or path\pip.exe -r requirements.txt (windows)
+1. pip install -r requirements.txt (linux) or "path\pip.exe" install -r requirements.txt (windows)
 2. cd TestSuite 
 3. pytest --html=TestingSubmarinoReport.html TestSuite.py
 
