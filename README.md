@@ -13,6 +13,7 @@ Before the test run, you have to change the directory of chromeDriver in SearchT
 1. pip install -r requirements.txt (linux) or "path\pip.exe" install -r requirements.txt (windows)
 2. cd TestSuite 
 3. pytest --html=TestingSubmarinoReport.html TestSuite.py
+4. A report will be generated in the /TestSuite project folder. Open with a browser.
 
 ## Python3 Version
 Python 3.7.0
